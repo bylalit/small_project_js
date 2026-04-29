@@ -1,0 +1,557 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    body{
+        background-color:hsl(244.29deg 19.44% 14.12%);
+    }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    padding: 0 80px;
+}
+
+.logo a{
+    text-decoration: none;
+    color:hsl(21.45deg 83.55% 54.71%);
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.list a{
+   text-decoration: none;
+   color: #000;
+   margin-right: 20px;
+   font-weight: bold;
+   transition: all 0.3s ease;
+}
+
+.list a:hover{
+    color: hsl(21.45deg 83.55% 54.71%);
+}
+
+.hero{
+    padding: 0 180px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero .left h4{
+    color:hsl(21.45deg 83.55% 54.71%);
+    font-size: 60px;
+    padding: 30px 0;
+    font-weight: bolder;
+}
+
+.hero .left p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+.hero .left button{
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background-color: hsl(21.45deg 83.55% 54.71%);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero img{
+    width: 550px;  
+    /* padding-top: 30px; */
+}
+
+.about{
+    padding: 100px 180px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+
+}
+.about img{
+    width: 450px;
+}
+
+.about .right {
+    padding-left: 80px;
+    padding-top: 30px;
+}
+.about .right h5{
+    font-size: 18px;
+    color: hsl(21.45deg 83.55% 54.71%);
+    padding-bottom: 10px;
+}
+.about .right h4{
+    color: #fff;
+    font-size: 35px;
+    padding-bottom: 30px;
+    line-height: 45px;
+}
+.about .right p{
+    color: #fff;
+    padding-bottom: 20px;
+}
+.about .right button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color:hsl(21.45deg 83.55% 54.71%);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.menu{
+    padding: 20px 0 50px;
+    text-align: center;
+}
+.menu p{
+    color: hsl(21.45deg 83.55% 54.71%);
+    font-size: 14px;
+    font-weight: bold;
+}
+.menu h6{
+    font-size: 22px;
+    color: #fff;
+    padding-top: 4px;
+}
+
+.list-food{
+    padding: 0 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.list-food .item{
+    background-color:hsl(18.26deg 100% 95.49%);
+    border-radius: 10px;
+    padding: 10px 0 30px;
+    gap: 40px;
+}
+.list-food .item .imgs{
+    display: flex;
+    justify-content: center;
+}
+.list-food .item .imgs img{
+    width: 60%;
+}
+
+.list-food .item .info{
+  display: flex;
+  flex-direction:column ;
+  align-items: center;
+}
+.list-food .item .info h6{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+.list-food .item .info p{
+    font-size: 14px;
+    color: #797777;
+    padding: 2px 0 5px;
+}
+.list-food .item .info h5{
+    color: hsl(21.45deg 83.55% 54.71%);
+    font-weight: bold;
+}
+
+
+
+.list-serv{
+    padding: 0 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-serv .list-abo .img{
+    display: flex;
+    justify-content: center;
+}
+.list-serv .list-abo .img img{
+    width: 20%;
+}
+
+.list-serv .infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list-serv .infos h5{
+    color:  hsl(21.45deg 83.55% 54.71%);
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px;
+}
+.list-serv .infos p{
+    color: #fff;
+    text-align:center;
+    padding: 5px 20px 70px;
+}
+
+.contener{
+    padding: 0 180px;
+    padding-bottom: 100px;
+}
+.contener .tak{
+    background-color: hsl(18.26deg 100% 95.49%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 170px;
+    border-radius: 14px;
+}
+.contener .tak p{
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+.contener .tak span{
+   font-size: 25px;
+   font-weight: bolder;
+   padding: 10px 0;
+}
+.contener .tak button{
+    padding: 8px 17px;
+    margin: 20px;
+    background-color: hsl(21.45deg 83.55% 54.71%);
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer{
+    padding: 0 180px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .list-footer h5{
+    font-size: 18px;
+    font-weight: bolder;
+    color: #fff;
+    padding: 30px 0;
+    
+
+}
+footer .list-footer .section{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+footer .list-footer .section a{
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.3;
+    padding: 10px 0;
+    transition: all 0.3s ease;
+}
+
+footer .list-footer .section a:hover{
+    color:hsl(21.45deg 83.55% 54.71%);
+}
+
+footer .list-footer #section img{
+    width: 40px;
+    cursor: pointer;
+    padding-left: 5px; 
+}
+
+
+@media screen and (max-width: 1024px){
+    .hero,
+    .about,
+    .menu,
+    .list-food,
+    .list-serv,
+    .contener,
+    footer{
+        padding: 0 90px;
+    }
+
+    .hero .left h4{
+        font-size: 45px;
+    }
+    .hero .left p{
+        font-size: 25px;
+    }
+    .hero .left button{
+        padding: 7px 16px;
+        font-size: 12px;
+    }
+    .hero img{
+        width: 400px;
+    }
+    .about{
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+    .about img{
+        width: 350px;
+    }
+    .about .right h5{
+        font-size: 15px;
+    }
+    .about .right h4{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .about .right p{
+        font-size: 13px;
+    }
+    .about .right button{
+        padding: 7px 16px;
+        font-size: 12px;
+    }
+    .menu{
+        padding: 40px 90px;
+    }
+
+    .list-food{
+        gap: 25px;
+        padding-bottom: 70px;
+    }
+    .list-food .item .imgs img {
+        width: 30%;
+    }
+    .list-serv .infos p{
+        font-size: 14px;
+    }
+    .contener .tak{
+        margin: 50px 0;
+    }
+    .contener .tak span{
+        font-size: 20px;
+    }
+
+    footer{
+        padding: 60px 90px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .hero,
+    .about,
+    .menu,
+    .list-food,
+    .list-serv,
+    .contener,
+    footer{
+        padding: 0 65px;
+    }
+    .hero .left h4{
+        font-size: 30px;
+    }
+    .hero .left p{
+        font-size: 18px;
+    }
+    .hero .left button{
+        padding: 7px 15px;
+        font-size: 10px;
+    }
+    .hero img{
+        width: 300px;
+    }
+    .about{
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    .about img{
+        width: 280px;
+    }
+    .about .right h5{
+        font-size: 12px;
+    }
+    .about .right h4{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .about .right p{
+        font-size: 11px;
+    }
+    .about .right button{
+        padding: 7px 16px;
+        font-size: 10px;
+    }
+    .menu{
+        padding: 40px 65px;
+    }
+    .list-food{
+        padding-bottom: 50px;
+    }
+    footer{
+        padding: 40px 65px;
+    }
+    footer .list-footer h5{
+        font-size: 15px;
+        padding: 25px 0;
+    }
+    footer .list-footer .section a{
+        font-size: 13px;
+    }
+    footer .list-footer #section img{
+        width: 25px;
+    }
+}
+
+    /* @media screen and(max-width:425px) {
+        nav{
+            width: 100%;
+        }
+        .list{
+            display: none;
+        }
+        .hero{
+            height: auto;
+        }
+        .hero, .about, .menu, .list-food, .list-serv, .contener, footer {
+            padding: 0px;
+        }
+        .hero .left h4{
+            font-size: 30px;
+        }
+        .hero img{
+            width: 80px;
+        }
+    } */
+ @media screen and (max-width:425px) {
+    nav{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    nav .logo a{
+        font-size: 30px;
+        margin-left: 30px;
+    }
+    .list{
+        display: none;
+    }
+    .hero{
+        height: auto;
+        margin: 30px 0;
+    }
+    .hero, .about, .menu, .list-food, .list-serv, .contener, footer {
+        padding: 0px;
+    }
+    .hero .left{
+        margin-left: 30px;
+    }
+    .hero .left h4{
+        font-size: 26px;
+        padding-bottom: 25px;
+    }
+    .hero .left p {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+    .hero .left button {
+        font-size: 12px;
+    }
+    .hero img{
+        width: 180px;
+    }
+    .about{
+        margin: 50px 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about img{
+        width: 300px;
+        margin-bottom: 50px;
+        box-shadow: 2px 2px 4px black, -2px -2px 4px black;
+        padding: 30px;
+    }
+    .about .right{
+        padding: 0 0 0 30px;
+    }
+    .about .right h4{
+        font-size: 18px;
+        line-height: 20px;
+        padding-bottom: 20px;
+    }
+    .about .right p{
+        width: 100%;
+        line-height: 18px;
+    }
+    .menu h6{
+        padding-bottom: 20px;
+    }
+    .list-food{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .list-food .item{
+        box-shadow: 3px 3px 8px black, -3px -3px 8px rgb(247, 70, 0);
+    }
+    .list-serv{
+        flex-direction: column;
+    }
+    .list-serv .list-abo{
+        width: 75%;
+    }
+    .contener{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contener .tak{
+        margin: 0;
+        width: 80%;
+        box-shadow: 2px 2px 6px rgb(255, 255, 255), -2px -2px 6px black;
+    }
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center
+    }
+
+    .list-footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    footer .list-footer h5{
+        font-size: 20px;
+        margin-top: 20px;
+        padding: 10px 0;
+    }
+    footer .list-footer .section{
+        align-items: center;
+        justify-content: center;
+    }
+    footer .list-footer .section a{
+        padding-bottom: 8px;
+    }
+    footer .list-footer #section img{
+        margin-bottom: 20px; 
+    }
+
+} 
