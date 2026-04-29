@@ -77,7 +77,7 @@ These projects are created for:
 
 ## 🙌 Author
 
-**Your Name**
+**Lalit Kumar Prajapati**
 
 * Passionate Web Developer
 * Learning & Building Projects 🚀
